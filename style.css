@@ -1,4 +1,11 @@
-button {
+.button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-size: large;
+}
+.operator {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
@@ -20,25 +27,21 @@ textarea {
     resize: none;
     width: 500px;
     height: 40px;
+    text-align: right;
 }
 .numbers {
     display: grid;
     margin-right: 10px;
     grid-template-columns: auto auto auto;
 }
-#digits-0 {
-    grid-column: 1 / span 3 ;
-}
 .magic {
     display: grid;
     grid-template-columns: auto auto;
 }
-#divide {
-    grid-column: 1/ 3;
+#input {
+    width: 500px;
+    height: 40px;
 }
-#multiply {
-    grid-column: 1/span 2;
-}
-#equal {
-    grid-column: 1 / 3;
+.equal-sign {
+    grid-row:  span 2;
 }
